@@ -1,0 +1,3068 @@
+{
+"version": "version-8d4ea819d4ec4cf1", 
+"deploydate": "Wed May 26 16:07:15 2021", 
+"addresses": {
+"addinfo": {
+"addr": 22591280,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"arith": {
+"addr": 22643968,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"appendarray": {
+"addr": 6042032,
+"ccv": "__thiscall",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"aux_upvalue": {
+"addr": 22532096,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"auxgetinfo": {
+"addr": 22591392,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3, int a4, int a5", 
+"mask": "....", 
+"typedef": "int" 
+},
+"auxresume": {
+"addr": 22597920,
+"ccv": "__thiscall",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"call_bintm": {
+"addr": 22641344,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3, int a4", 
+"mask": "....", 
+"typedef": "int" 
+},
+"call_ordertm": {
+"addr": 22641520,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"calltmres": {
+"addr": 22644320,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3, int a4, int a5", 
+"mask": "....", 
+"typedef": "int" 
+},
+"close_state": {
+"addr": 22646192,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"currentline": {
+"addr": 22591808,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"err_geterrorstring": {
+"addr": 9680784,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"f_call": {
+"addr": 22532224,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"f_luaopen": {
+"addr": 22589696,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"findfirstchild": {
+"addr": 6605520,
+"ccv": "__stdcall",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"findfirstchildofclass": {
+"addr": 6606288,
+"ccv": "__stdcall",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"findlocal": {
+"addr": 22633840,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"fireclickdetector": {
+"addr": 13028512,
+"ccv": "__thiscall",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, float a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"fireproximityprompt": {
+"addr": 13348864,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "", 
+"mask": "....", 
+"typedef": "int" 
+},
+"flog_getvalue": {
+"addr": 24982160,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2, const char* a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"flog_setvalue": {
+"addr": 24989392,
+"ccv": "__stdcall",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2, int a3, const char* a4", 
+"mask": "....", 
+"typedef": "int" 
+},
+"getdatamodel": {
+"addr": 16710688,
+"ccv": "__thiscall",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"getdatamodel2": {
+"addr": 16710352,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "", 
+"mask": "....", 
+"typedef": "int" 
+},
+"getfunc": {
+"addr": 22595760,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"getjobsbyname": {
+"addr": 17399104,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"getnamecallmethod": {
+"addr": 22542192,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"grabscriptcontext": {
+"addr": 6151104,
+"ccv": "__thiscall",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, const char* a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"grabglobalstateindex": {
+"addr": 7979424,
+"ccv": "__thiscall",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"growci": {
+"addr": 22546144,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"hashnum": {
+"addr": 22635840,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"index2adr": {
+"addr": 22532304,
+"ccv": "__fastcall",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"report_touch_info": {
+"addr": 9617424,
+"ccv": "__stdcall",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"propagateall": {
+"addr": 22629856,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"propagatemark": {
+"addr": 22630384,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"sweeplist": {
+"addr": 22631984,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luaopen_base": {
+"addr": 22596832,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luaopen_table": {
+"addr": 22598688,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luaopen_bit32": {
+"addr": 22618048,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_call": {
+"addr": 22532560,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_checkstack": {
+"addr": 22537312,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_close": {
+"addr": 22590096,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_concat": {
+"addr": 22532832,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_createtable": {
+"addr": 22533008,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_error": {
+"addr": 22533200,
+"ccv": "__thiscall",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_freeobj": {
+"addr": 22627504,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_gc": {
+"addr": 22533216,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_getargument": {
+"addr": 22592944,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_getfenv": {
+"addr": 22533504,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_getfield": {
+"addr": 22533664,
+"ccv": "__fastcall",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, const char* a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_getinfo": {
+"addr": 22593152,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_getlocal": {
+"addr": 22593376,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_getmetatable": {
+"addr": 22533824,
+"ccv": "__fastcall",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_gettable": {
+"addr": 22534000,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_gettop": {
+"addr": 22534112,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_getupvalue": {
+"addr": 22534144,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_insert": {
+"addr": 22534288,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_iscfunction": {
+"addr": 22534496,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_isnumber": {
+"addr": 22534576,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_isstring": {
+"addr": 22534672,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_isuserdata": {
+"addr": 22534416,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_lessthan": {
+"addr": 22534752,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_newstate": {
+"addr": 22590144,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_newthread": {
+"addr": 22534928,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_newuserdata": {
+"addr": 22535072,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_next": {
+"addr": 22535200,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_objlen": {
+"addr": 22535344,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_pcall": {
+"addr": 22535568,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3, int a4", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_pushboolean": {
+"addr": 22535760,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_pushcclosure": {
+"addr": 22535840,
+"ccv": "__stdcall",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3, int a4, int a5", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_pushfstring": {
+"addr": 22536048,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_pushinteger": {
+"addr": 22536160,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_pushlightuserdata": {
+"addr": 22536256,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_pushlstring": {
+"addr": 22536336,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, const char* a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_pushnil": {
+"addr": 22536448,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_pushnumber": {
+"addr": 22536528,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_pushstring": {
+"addr": 22536624,
+"ccv": "__fastcall",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, const char* a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_pushthread": {
+"addr": 22536784,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_pushvalue": {
+"addr": 22536992,
+"ccv": "__fastcall",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_pushvfstring": {
+"addr": 22537200,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, const char* a2, char* a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_rawequal": {
+"addr": 22537424,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_rawget": {
+"addr": 22537552,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_rawgeti": {
+"addr": 22537840,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_rawset": {
+"addr": 22537968,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_rawseti": {
+"addr": 22538176,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_rawvalue": {
+"addr": 22532480,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_remove": {
+"addr": 22538656,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_replace": {
+"addr": 22538800,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_resume": {
+"addr": 22547392,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_setfenv": {
+"addr": 22539056,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_setfield": {
+"addr": 22539248,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, const char* a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_setlocal": {
+"addr": 22593600,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_setmetatable": {
+"addr": 22539424,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_setreadonly": {
+"addr": 22539696,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_setsafeenv": {
+"addr": 22539808,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_settable": {
+"addr": 22539920,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_settop": {
+"addr": 22540048,
+"ccv": "__fastcall",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_setupvalue": {
+"addr": 22540176,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_toboolean": {
+"addr": 22540352,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_tointeger": {
+"addr": 22540432,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_tolstring": {
+"addr": 22540560,
+"ccv": "__fastcall",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_tonumber": {
+"addr": 22540864,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_topointer": {
+"addr": 22540992,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_tostring": {
+"addr": 22541184,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_tothread": {
+"addr": 22541312,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_tounsignedx": {
+"addr": 22541376,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_touserdata": {
+"addr": 22541520,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_type": {
+"addr": 22541760,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_typename": {
+"addr": 22541824,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_xmove": {
+"addr": 22542064,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lua_yeild": {
+"addr": 22548000,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luaa_pushobject": {
+"addr": 22532448,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luab_auxwrap": {
+"addr": 22598048,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luac_barrierback": {
+"addr": 22627632,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luac_barrierf": {
+"addr": 22627664,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luac_fullgc": {
+"addr": 22628336,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luac_link": {
+"addr": 22628528,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luac_linkupval": {
+"addr": 22628592,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luac_step": {
+"addr": 22628720,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luad_call": {
+"addr": 22545984,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luad_growstack": {
+"addr": 22546240,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luad_pcall": {
+"addr": 22546288,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3, int a4, int a5", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luad_poscall": {
+"addr": 22587136,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luad_precall": {
+"addr": 22587264,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luad_rawrunprotected": {
+"addr": 22546512,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luad_reallocci": {
+"addr": 22546672,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luad_reallocstack": {
+"addr": 22546800,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luad_seterrorObj": {
+"addr": 22547072,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luad_throw": {
+"addr": 22547216,
+"ccv": "__fastcall",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luae_freethread": {
+"addr": 22589824,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luae_newthread": {
+"addr": 22589952,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luaf_close": {
+"addr": 22633136,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luaf_findupval": {
+"addr": 22633296,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luaf_freeproto": {
+"addr": 22633536,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luaf_newcclosure": {
+"addr": 22633952,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luaf_newlclosure": {
+"addr": 22634048,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3, int a4", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luaf_newproto": {
+"addr": 22634160,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luag_aritherror": {
+"addr": 22591968,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3, int a4", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luag_breakpoint": {
+"addr": 22592080,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3, int a4", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luag_concaterror": {
+"addr": 22592352,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luag_forerrorl": {
+"addr": 22592416,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, const char* a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luag_getline": {
+"addr": 22592464,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luag_indexerror": {
+"addr": 22592528,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luag_ordererror": {
+"addr": 22592704,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luag_runerror": {
+"addr": 22592848,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luag_typeerror": {
+"addr": 22645568,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luah_clone": {
+"addr": 22636080,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luah_free": {
+"addr": 22634880,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luah_get": {
+"addr": 22636480,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luah_getn": {
+"addr": 22636656,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luah_getnum": {
+"addr": 22636784,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luah_getstr": {
+"addr": 22637008,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luah_new": {
+"addr": 22637120,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luah_next": {
+"addr": 22637232,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luah_resizearray": {
+"addr": 22637696,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luah_set": {
+"addr": 22637776,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luah_setnum": {
+"addr": 22638144,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luah_setstr": {
+"addr": 22638256,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lual_addlstring": {
+"addr": 22542320,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lual_addvalue": {
+"addr": 22542384,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lual_argerror": {
+"addr": 22542496,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lual_buffinit": {
+"addr": 22542624,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lual_checkany": {
+"addr": 22542704,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lual_checkinteger": {
+"addr": 22542768,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lual_checklstring": {
+"addr": 22542816,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lual_checknumber": {
+"addr": 22542864,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lual_checkstack": {
+"addr": 22542912,
+"ccv": "__thiscall",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lual_checktype": {
+"addr": 22542976,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lual_checkunsigned": {
+"addr": 22543024,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lual_error": {
+"addr": 22543072,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1,  const char *a2, ...", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lual_findtable": {
+"addr": 22543328,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3, int a4", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lual_getmetafield": {
+"addr": 22544672,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lual_newmetatable": {
+"addr": 22543664,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lual_optinteger": {
+"addr": 22543776,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lual_optlstring": {
+"addr": 22543856,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, const char* a3, int a4", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lual_prepbuffer": {
+"addr": 22543120,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lual_pushresult": {
+"addr": 22544224,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lual_ref": {
+"addr": 22538384,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lual_register": {
+"addr": 22544384,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1, const char* a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lual_typeerror": {
+"addr": 22545216,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lual_unref": {
+"addr": 22595168,
+"ccv": "__fastcall",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"lual_where": {
+"addr": 22545376,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luam_realloc": {
+"addr": 22647059,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3, int a4", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luam_realloc_": {
+"addr": 22646464,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luam_toobig": {
+"addr": 22647072,
+"ccv": "__thiscall",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luao_chunkid": {
+"addr": 22588432,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "char* a1, const char* a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luao_pushfstring": {
+"addr": 22588816,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, const char* a2, ...", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luao_pushvfstring": {
+"addr": 22588976,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, const char* a2, char* a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luao_rawequalKey": {
+"addr": 22589136,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luao_rawequalobj": {
+"addr": 22589264,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luao_str2d": {
+"addr": 22589392,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "const char* a1, double* a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luas_newlstr": {
+"addr": 22635024,
+"ccv": "__stdcall",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luas_newudata": {
+"addr": 22635504,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luas_resize": {
+"addr": 22635584,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luat_gettm": {
+"addr": 22645520,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luat_objtypename": {
+"addr": 22645856,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luau_backtrace": {
+"addr": 22582592,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luau_betavm": {
+"addr": 22565728,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luau_callhook": {
+"addr": 22584048,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luau_calltm": {
+"addr": 22583760,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luau_deserialize": {
+"addr": 22584416,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, const char* a2, const char* a3, int a4, int a5", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luau_execute": {
+"addr": 22753312,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3, int a4, int a5, int a6", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luau_loopforg": {
+"addr": 22596256,
+"ccv": "__thiscall",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luau_prepareforn": {
+"addr": 22587648,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3, int a4", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luau_resolveimport": {
+"addr": 22587808,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3, int a4, int a5", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luau_tryfunctm": {
+"addr": 22588224,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luav_concat": {
+"addr": 22641664,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luav_doarith": {
+"addr": 22642560,
+"ccv": "__thiscall",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3, int a4, int a5, int a6", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luav_dolen": {
+"addr": 22654160,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luav_execute": {
+"addr": 22548816,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luav_gettable": {
+"addr": 22644304,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3, int a4, int a5", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luav_gettable_opt": {
+"addr": 22644272,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3, int a4", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luav_lessequal": {
+"addr": 22644576,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luav_lessthan": {
+"addr": 22644736,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luav_settable": {
+"addr": 22644896,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3, int a4", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luav_tonumber": {
+"addr": 22645312,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luav_tostring": {
+"addr": 22645408,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luavm_compile": {
+"addr": 7105792,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luavm_load": {
+"addr": 7107136,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luax_init": {
+"addr": 22645680,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"luaz_openspace": {
+"addr": 22634768,
+"ccv": "__thiscall",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"mainposition": {
+"addr": 22638336,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"markmt": {
+"addr": 22629472,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"markroot": {
+"addr": 22629712,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"match": {
+"addr": 22613008,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"newkey": {
+"addr": 22638672,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"print": {
+"addr": 6531664,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"push_captures": {
+"addr": 22615456,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"push_instance": {
+"addr": 8715120,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_get_property": {
+"addr": 8707072,
+"ccv": "__thiscall",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_network_replicator_onreceive": {
+"addr": 20847744,
+"ccv": "__fastcall",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_network_physicssenders2_sendpacket": {
+"addr": 21629440,
+"ccv": "__thiscall",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_disable_report_screenshot_gl2": {
+"addr": 18663104,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_disable_report_screenshot_gl": {
+"addr": 18663072,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_disable_report_screenshot_metal": {
+"addr": 18663136,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_disable_report_screenshot_vulkan": {
+"addr": 18663168,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_disable_report_screenshot_d3d": {
+"addr": 18663040,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_setsimulationradius": {
+"addr": 21626080,
+"ccv": "__thiscall",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_network_clientreplicator_processtag": {
+"addr": 21187984,
+"ccv": "__stdcall",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2, int a3, int a4", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_corescript_getluavmcorescriptfilepath": {
+"addr": 11519008,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2, const char* a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_datastore_runtransformfunction": {
+"addr": 13614592,
+"ccv": "__stdcall",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_datamodel_dodatamodelsetup": {
+"addr": 7300688,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2, int a3, int a4, int a5", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_debugvalueconverte_userdatatostring": {
+"addr": 12804912,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_deu_uploadcrasheventfile": {
+"addr": 6424000,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_lm_reporterror": {
+"addr": 6442800,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_lua_dumpthreadrefcounts": {
+"addr": 8505552,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_network_replicator_processdeserializedpacket": {
+"addr": 20864512,
+"ccv": "__thiscall",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_network_server_registerlegalscript": {
+"addr": 21041424,
+"ccv": "__thiscall",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_rcr_processexception": {
+"addr": 6442464,
+"ccv": "__stdcall",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "", 
+"mask": "....", 
+"typedef": "int" 
+},
+"raknet_rakpeer_runupdatecycle": {
+"addr": 21068992,
+"ccv": "__thiscall",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2, int a3, int a4", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_sc_closestate": {
+"addr": 7959280,
+"ccv": "__stdcall",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_taskscheduler_getlastcycletimestamp": {
+"addr": 17223360,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_lua_bridge_on_index": {
+"addr": 8713840,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_security_context_current": {
+"addr": 22526128,
+"ccv": "__thiscall",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_security_impersonator_impersonator": {
+"addr": 22525920,
+"ccv": "__stdcall",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_datamodel_getjobsinfo": {
+"addr": 7315648,
+"ccv": "__thiscall",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_sc_crash": {
+"addr": 7962320,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_sc_interrupt": {
+"addr": 7987840,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_sc_loadstring": {
+"addr": 7991168,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_sc_scriptcontext": {
+"addr": 7932544,
+"ccv": "__thiscall",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_sc_startscript": {
+"addr": 8045120,
+"ccv": "__stdcall",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_sc_watchdog": {
+"addr": 8052656,
+"ccv": "__thiscall",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_scriptcontext_getcontext": {
+"addr": 8092624,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_scriptcontext_debuggermanager": {
+"addr": 7964336,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_scriptcontext_pluginmanager": {
+"addr": 8004432,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_scriptcontext_usersettings": {
+"addr": 8051520,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_scriptcontext_settings": {
+"addr": 8041840,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_scriptcontext_getglobalstate": {
+"addr": 7979488,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_modulescript_vmstate": {
+"addr": 12886816,
+"ccv": "__stdcall",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_modulescript_pervmstate_setcompletedsuccess": {
+"addr": 12886160,
+"ccv": "__fastcall",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_modulescript_pervmstate_getandclearyieldedimporters": {
+"addr": 8038016,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_scriptcontext_requiremodulescriptsuccesscontinuation": {
+"addr": 8031536,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_setthreadname": {
+"addr": 17221728,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_serializer_loadinstances": {
+"addr": 8884928,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_scriptcontext_printcallstack": {
+"addr": 8005040,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2, const char* a3, int a4", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_serializer_loadinstances_long": {
+"addr": 8884960,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_standardout_printwithlink": {
+"addr": 6530896,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2, int a3, int a4", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_ts_startscript": {
+"addr": 11825024,
+"ccv": "__thiscall",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbx_ws_getrealphysicsfps": {
+"addr": 9790912,
+"ccv": "__thiscall",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rbxcrash": {
+"addr": 25030496,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"reallymarkobject": {
+"addr": 22631008,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"rehash": {
+"addr": 22639104,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3, int a4", 
+"mask": "....", 
+"typedef": "int" 
+},
+"reportError": {
+"addr": 7985968,
+"ccv": "__stdcall",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"resize": {
+"addr": 22639744,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3, int a4", 
+"mask": "....", 
+"typedef": "int" 
+},
+"resume": {
+"addr": 22548112,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"resume_error": {
+"addr": 22548336,
+"ccv": "__cdecl",
+"retcheck": true,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1, const char* a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"retcheck": {
+"addr": 7108160,
+"ccv": "__thiscall",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"robloxextraspace__robloxextraspace": {
+"addr": 7949568,
+"ccv": "__thiscall",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"sandboxthread": {
+"addr": 7989728,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"setarrayvector": {
+"addr": 22640272,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"setnodevector": {
+"addr": 22640432,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"singlestep": {
+"addr": 22631424,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"spawn": {
+"addr": 8042304,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"stack_init": {
+"addr": 22591104,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"str_find_aux": {
+"addr": 22615888,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"tag_error": {
+"addr": 22545488,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2, int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"trustCheck": {
+"addr": 24462640,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "const char* a1, char* a2,  int a3", 
+"mask": "....", 
+"typedef": "int" 
+},
+"taskscheduler": {
+"addr": 17223904,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": false,
+"aob": "Unable to generate aob.",
+"args": "", 
+"mask": "....", 
+"typedef": "int" 
+},
+"unbound_search": {
+"addr": 22640640,
+"ccv": "__cdecl",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "std::uintptr_t a1, int a2", 
+"mask": "....", 
+"typedef": "int" 
+},
+"vm_invoker": {
+"addr": 22584384,
+"ccv": "__thiscall",
+"retcheck": false,
+"isapartoflua": true,
+"aob": "Unable to generate aob.",
+"args": "int a1", 
+"mask": "....", 
+"typedef": "int" 
+},
+"cum_check_bypass": {"addr": 24458391} ,"callcheck": {"addr": 6216768} ,"retcheckflag1": {"addr": 44515660} ,"retcheckflag2": {"addr": 44515900} ,"xorconst": {"addr": 44013888} ,"luao_nilobject": {"addr": 35936800} ,"luat_typenames": {"addr": 35942968} ,"kname": {"addr": 41572728} ,"op_index": {"addr": 22565324} ,"op_case_table": {"addr": 22565024} ,"retcheck_jmp": {"addr": 7108192} ,"trustcheck_bypass1": {"addr": 40296200} ,"scriptinstance": {"addr": 42236364} ,"scriptcontext": {"addr": 33809200} 
+}, 
+ "offsets" : { 
+"roblox_offsets": {
+"getnamecallmethod_offset":  96,
+"networked_dm":  1184,
+"Identity1":  24,
+"Identity2":  108
+},
+"luastate_offsets": {
+"ls_readonly":  8,
+"ls_base_ci":  0,
+"ls_end_ci":  0,
+"ls_ci":  16,
+"ls_saved_pc":  16,
+"ls_top":  12,
+"ls_base":  20,
+"ls_env":  80,
+"ls_l_gt":  56
+},
+"globalstate_offsets": {
+"ls_gs_totalbytes":  0,
+"ls_gs_gcthreshold":  0,
+"ls_gs_gcpause":  0,
+"ls_gs_gcstepmul":  0,
+"ls_gs_rootgc":  31409153,
+"ls_gs_mainthread":  1228
+},
+"closure_offsets": {
+"ls_closure_nupvalues":  6,
+"ls_closure_env":  16,
+"ls_closure_isc":  0
+},
+"types": {
+"R_LUA_TNONE":  -1,
+"R_LUA_TUSERDATA":  7,
+"R_LUA_TFUNCTION":  9,
+"R_LUA_TSTRING":  5,
+"R_LUA_TBOOLEAN":  1,
+"R_LUA_TNUMBER":  2,
+"R_LUA_TTABLE":  6,
+"R_LUA_TNIL":  0,
+"R_LUA_TTHREAD":  8,
+"R_LUA_TVECTOR":  4,
+"R_LUA_TLIGHTUSERDATA":  3,
+"R_LUA_TPROTO":  10,
+"R_LUA_TUPVALUE":  11},
+"protos": {
+"proto_k":  8,
+"proto_sizek":  64,
+"proto_code":  36,
+"proto_sizep":  60,
+"proto_locvars":  28,
+"proto_sizecode":  72,
+"proto_sizeupvalues":  56,
+"proto_maxstacksize":  82,
+"proto_sizelineinfo":  68,
+"proto_upvalues":  12,
+"proto_size_locvars":  76,
+"proto_source":  20,
+"proto_numparams":  83
+},
+"extras": {
+"ls_offset": 204,
+"ls_symbol": "^",
+"ls_syntax": 0,
+"gs_symbol": "-",
+"gs_offset": 12,
+"setiden_syntax": 0,
+"protoobf_symbol": "-",
+"protodeobf_symbol": "+" 
+}
+}
+}
